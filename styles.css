@@ -30,9 +30,7 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-#top-section{
-  margin: 40px 150px 20px 120px;
-}
+
 
 .container {
   margin-top: 40px;
@@ -272,7 +270,7 @@ hr{
 }
 
 .container{
-  padding: 0px;
+  /* padding: 0px; */
 }
 
 .light-mode {
