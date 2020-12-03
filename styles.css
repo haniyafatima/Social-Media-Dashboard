@@ -14,7 +14,7 @@
   transition-duration: 0.6s;
 }
 
-.containerss:hover{
+.containerss:hover {
   background-color: #d2d8ef;
 }
 
@@ -29,8 +29,6 @@ body {
   color: hsl(228, 34%, 66%);
   font-family: 'Inter', sans-serif;
 }
-
-
 
 .container {
   margin-top: 40px;
@@ -52,18 +50,14 @@ h3 {
   font-weight: bold;
 }
 
-.switch-div {
-  float: right;
-  margin-top: -20px;
-}
-
 .div-1, .div-2 {
   border-top: 4px solid hsl(210, 78%, 56%);
 }
 
-.div-3{
+.div-3 {
   border-top: 4px solid;
-  border-image: linear-gradient(to right,#FDC468,#DF4996) 1;;
+  border-image: linear-gradient(to right, #FDC468, #DF4996) 1;
+  ;
 }
 
 .div-4 {
@@ -80,7 +74,7 @@ h3 {
   transition-duration: 0.6s;
 }
 
-.divs:hover{
+.divs:hover {
   background-color: #3d466c;
 }
 
@@ -161,7 +155,7 @@ h3 {
   margin-top: 10px;
 }
 
-.overview-info{
+.overview-info {
   font-weight: bold;
   font-size: 14px;
 }
@@ -206,7 +200,6 @@ h3 {
   transition: .4s;
 }
 
-
 input:checked+.slider {
   background-color: #ccc;
 }
@@ -229,54 +222,95 @@ input:checked+.slider:before {
   border-radius: 50%;
 }
 
-hr{
+hr {
   display: none;
 }
 
 /* Media Mobile Desktop */
-@media (max-width: 1028px){
-
-  #top-section{
+@media (max-width: 1028px) {
+  #top-section {
     margin: 40px 40px 20px 40px;
   }
 
-.switch-div{
-  margin-bottom: 20px;
-  margin-top: 20px;
+  .switch-div {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
 
+  .dark-text {
+    padding-right: 300px;
+  }
+
+  .upper-div {
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -10px;
+  }
+
+  .lower-div {
+    margin-bottom: -10px;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .overview-today {
+    margin: 40px;
+  }
+
+  .light-mode {
+    background-image: none;
+  }
+
+.para1, .para2{
+  padding-right: 250px;
 }
 
-.dark-text{
-  padding-right:300px;
+.para3{
+  padding-right: 200px;
+}
+.para4, .para6, .para8{
+  padding-right: 220px;
+}
+.para5, .para7{
+  padding-right: 230px;
 }
 
-.upper-div{
-  width: 400px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: -10px;
+.logo1,.logo8{
+  padding-left: 220px;
+}
+.logo2,.logo3, .logo6, .logo7{
+  padding-left: 260px;
+}
+.logo4{
+  padding-left: 210px;
+}
+.logo5{
+  padding-left: 230px;
 }
 
-.lower-div{
-  margin-bottom: -10px;
-  /* padding: 20px; */
-  width: 400px;
-  margin-right: auto;
-  margin-left: auto;
-}
 
-.overview-today{
-  margin: 40px;
-}
 
-.container{
-  /* padding: 0px; */
-}
 
-.light-mode {
-  background-image: none;
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
