@@ -1,0 +1,286 @@
+/* Toggle Light Mode */
+/* Extra Classes applied on light mode */
+.bodycolor {
+  background-color: white;
+}
+
+.text-color {
+  color: black;
+}
+
+.containerss {
+  background-color: hsl(227, 47%, 96%);
+  transition-delay: 0.1s;
+  transition-duration: 0.6s;
+}
+
+.containerss:hover{
+  background-color: #d2d8ef;
+}
+
+.light-mode {
+  background-image: linear-gradient(180deg, #f5f7ff 32%, white 32%);
+  background-repeat: no-repeat;
+}
+
+/* Toggle Dark Mode */
+body {
+  background-color: hsl(230, 17%, 14%);
+  color: hsl(228, 34%, 66%);
+  font-family: 'Inter', sans-serif;
+}
+
+#top-section{
+  margin: 40px 150px 20px 120px;
+}
+
+.container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 60px;
+  color: #fff;
+  font-weight: bold;
+  padding-top: 15px;
+  margin-bottom: -5px;
+}
+
+h3 {
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+}
+
+.switch-div {
+  float: right;
+  margin-top: -20px;
+}
+
+.div-1, .div-2 {
+  border-top: 4px solid hsl(210, 78%, 56%);
+}
+
+.div-3{
+  border-top: 4px solid;
+  border-image: linear-gradient(to right,#FDC468,#DF4996) 1;;
+}
+
+.div-4 {
+  border-top: 4px solid hsl(348, 97%, 39%);
+}
+
+.up-icon {
+  padding-right: 10px;
+}
+
+.divs {
+  background-color: hsl(228, 28%, 20%);
+  transition-delay: 0.1s;
+  transition-duration: 0.6s;
+}
+
+.divs:hover{
+  background-color: #3d466c;
+}
+
+.upper-div {
+  text-align: center;
+  width: 260px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 20px 10px 10px 10px;
+  border-radius: 5px;
+}
+
+.lower-div {
+  width: 260px;
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.followers {
+  letter-spacing: 5px;
+  font-weight: 50;
+  font-size: 14px;
+  color: hsl(228, 34%, 66%);
+}
+
+.logo1 {
+  padding-left: 100px;
+}
+
+.logo2, .logo3, .logo6, .logo7 {
+  padding-left: 150px;
+}
+
+.logo4 {
+  padding-left: 90px;
+}
+
+.logo5 {
+  padding-left: 120px;
+}
+
+.logo8 {
+  padding-left: 100px;
+}
+
+.para-color {
+  color: #fff;
+}
+
+.para1, .para2, .para3, .para4, .para5, .para6, .para7, .para8 {
+  display: inline;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.para1, .para2 {
+  padding-right: 140px;
+}
+
+.para3 {
+  padding-right: 80px;
+}
+
+.para4, .para8 {
+  padding-right: 100px;
+}
+
+.para5, .para6 {
+  padding-right: 105px;
+}
+
+.para7 {
+  padding-right: 119px;
+}
+
+.overview {
+  margin-top: 10px;
+}
+
+.overview-info{
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Toggle Button */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 28px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: hsl(163, 72%, 41%);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 19px;
+  width: 19px;
+  left: 4px;
+  bottom: 4px;
+  background-color: grey;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+
+input:checked+.slider {
+  background-color: #ccc;
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 1px hsl(163, 72%, 41%);
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+hr{
+  display: none;
+}
+
+/* Media Mobile Desktop */
+@media (max-width: 1028px){
+
+  #top-section{
+    margin: 40px 40px 20px 40px;
+  }
+
+.switch-div{
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+
+.dark-text{
+  padding-right:300px;
+}
+
+.upper-div{
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: -10px;
+}
+
+.lower-div{
+  margin-bottom: -10px;
+  /* padding: 20px; */
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.overview-today{
+  margin: 40px;
+}
+
+.container{
+  padding: 0px;
+}
+
+.light-mode {
+  background-image: none;
+
+}
+
+
+
+
+}
